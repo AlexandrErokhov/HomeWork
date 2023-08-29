@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+.parent {
+    max-width: 1200px;
+    max-height: 500px;
+    background-color: rgb(174, 144, 202);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    overflow: auto;
+
+}
+
+.child {
+    display: inline-block;
+    width: 250px;
+    height: 200px;
+    background-color: bisque;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-right: -5px;
+    border-radius: 20px;
+    box-shadow: inset 1px 1px 10px, inset -1px -1px 10px;
+}
+.zag {
+    text-indent: 30px;
+}
+.pf {
+    text-align: left;
+    padding: 10px 20px 10px 20px;
+}
