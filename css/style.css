@@ -1,0 +1,52 @@
+body {
+    line-height: 125%;
+    color: #25282B;
+    font-family: "Montserrat", "arial", sans-serif;
+    background-color: #F8FCFF;
+}
+
+.header {
+
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+.header__inner {
+    min-height: 108px;
+    margin:  0 auto;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    align-content: center;
+    gap: 15px;
+
+}
+
+
+.nav__list {
+    display: flex;
+    column-gap: 30px;
+    line-height: 150%;
+    flex-wrap: wrap;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.header__logo {
+    max-width: 54px;
+}
+
+
+.networks__list{
+    display: flex;
+    column-gap: 30px;
+    line-height: 150%;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
